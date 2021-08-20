@@ -1,4 +1,16 @@
 {
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/Discount.Grpc",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:61381/",
+      "sslPort": 44327
+    }
+  },
   "profiles": {
     "Discount.Grpc": {
       "commandName": "Project",
@@ -7,6 +19,15 @@
       },
       "dotnetRunMessages": "true",
       "applicationUrl": "http://localhost:5003"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true,
+      "useSSL": true
     }
   }
 }

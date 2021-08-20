@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{E3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Api", "Services\Discount\Discount.Api\Discount.Api.csproj", "{03720208-DA6E-499A-B334-AC3F0C5B57BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{9CEB9E19-A2BB-4103-96FB-7C3B0539C957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{9CEB9E19-A2BB-4103-96FB-7C3B0539C957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{BB31C4ED-1AFB-4F21-8364-7F6A2C35059E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,7 @@ Global
 		{E3F078C7-A026-4221-9E74-1B7112079F8C} = {A1672AE2-1F5B-4C08-BA81-2691ACFD42F6}
 		{03720208-DA6E-499A-B334-AC3F0C5B57BB} = {E3F078C7-A026-4221-9E74-1B7112079F8C}
 		{9CEB9E19-A2BB-4103-96FB-7C3B0539C957} = {E3F078C7-A026-4221-9E74-1B7112079F8C}
+		{BB31C4ED-1AFB-4F21-8364-7F6A2C35059E} = {A1672AE2-1F5B-4C08-BA81-2691ACFD42F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8316CB6-8296-4438-AD23-9F81244E1A64}

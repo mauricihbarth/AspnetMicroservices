@@ -1,20 +1,21 @@
-﻿using Ordering.Domain.Commom;
-
-namespace Ordering.Domain.Entities
+﻿namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
 {
-    public class Order : EntityBase
+    public class OrdersVm
     {
+        public int Id { get; set; }
         public string UserName { get; set; }
         public decimal TotalPrice { get; set; }
-        //BillingAddress
+
+        // BillingAddress
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string EmailAdress { get; set; }
-        public string AdressLine { get; set; }
+        public string EmailAddress { get; set; }
+        public string AddressLine { get; set; }
         public string Country { get; set; }
         public string State { get; set; }
         public string ZipCode { get; set; }
-        //Payment
+
+        // Payment
         public string CardName { get; set; }
         public string CardNumber { get; set; }
         public string Expiration { get; set; }
